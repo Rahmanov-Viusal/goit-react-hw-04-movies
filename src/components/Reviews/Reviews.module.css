@@ -1,0 +1,14 @@
+.item {
+  padding: 20px 0;
+}
+
+.author {
+  margin-bottom: 5px;
+  font-size: 18px;
+  letter-spacing: 0.2em;
+}
+
+.content {
+  text-align: justify;
+  letter-spacing: 0.1em;
+}

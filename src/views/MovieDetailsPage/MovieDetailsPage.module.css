@@ -1,0 +1,84 @@
+.movies {
+  display: flex;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: 1px solid blue;
+  border-top: 1px solid blue;
+}
+
+.about {
+  margin-left: 20px;
+}
+
+.overview {
+  color: blue;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.description {
+  color: rgba(12, 12, 221, 0.582);
+  font-size: 16px;
+  font-weight: 400;
+  display: block;
+  margin-top: 15px;
+  font-style: italic;
+}
+
+.genres {
+  color: #e3f309cb;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.genresName {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.navigation {
+  text-align: center;
+  border-bottom: 1px solid blue;
+  padding-bottom: 15px;
+}
+
+.information {
+  text-align: center;
+  font-size: 18px;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  color: blue;
+  font-size: 18px;
+}
+
+.activeLink {
+  composes: link;
+  color: #f30909cb;
+  border-bottom: 2px solid #f30909cb;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+  color: blue;
+  margin-top: -10px;
+}
+
+.genre {
+  display: flex;
+  align-items: center;
+}
+
+.genre li:not(:last-child)::after {
+  content: ',';
+  margin-right: 5px;
+}

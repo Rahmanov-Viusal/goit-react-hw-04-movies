@@ -1,0 +1,46 @@
+.trendTitle {
+  text-align: center;
+  color: rgb(212, 0, 255);
+}
+
+.trendList {
+  display: grid;
+  max-width: calc(100vw - 35px);
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 16px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.trendItem {
+  border-radius: 5px;
+  border: 2px solid rgb(212, 0, 255);
+  overflow: hidden;
+}
+
+.title {
+  text-align: center;
+  font-style: italic;
+  color: rgb(212, 0, 255);
+  height: 40px;
+}
+
+.imageTrend {
+  width: 100%;
+  min-height: 410px;
+  object-fit: cover;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.imageTrend:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.trendLink {
+  text-decoration: none;
+}

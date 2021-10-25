@@ -1,0 +1,27 @@
+.button {
+  min-width: 150px;
+  margin: 10px 0;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 0.95em;
+  font-weight: 600;
+  line-height: 1;
+  background-color: white;
+  border: 1px solid blue;
+  border-radius: 8px;
+  color: blue;
+  transition: all 150ms ease-in-out;
+}
+
+.button:hover {
+  background-color: blue;
+  color: #fff;
+  box-shadow: 0 0 2px 0 blue;
+}
+.button:hover,
+.button:focus {
+  outline: 0;
+}
